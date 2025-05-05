@@ -23,13 +23,13 @@ Embora um esforço substancial tenha sido feito no sentido da modularização e 
 1. Instale o Python com o Pip (https://www.python.org/)
 2. Instale o VSCode (https://code.visualstudio.com/)
 3. Clique na opção "Source Control" ou pressione `CTRL+SHIFT+G` no teclado.
-4. Clone este repositório (por exemplo, por meio do link https://github.com/cpicanco/alfatech-analysis.git) ou o seu fork do repositório.
+4. Clone este repositório (por exemplo, por meio do link https://github.com/cpicanco/geic-data-analysis.git) ou o seu fork do repositório.
 5. Abra o `Powershell` dentro do VSCode; assegure-se que você está dentro da pasta do repositório.
 6. Certifique-se que a versão do python é igual a 3.11.2 com o comando `py --version`
-7. Crie um novo ambiente virtual: `py -m venv .alfatech`
-8. Ative o ambiente virtual dentro do VSCode quando ele perguntar para você ou faça isso manualmente no Powershell do VSCode `.\.alfatech\Scripts\activate`
+7. Crie um novo ambiente virtual: `py -m venv .venv`
+8. Ative o ambiente virtual dentro do VSCode quando ele perguntar para você ou faça isso manualmente no Powershell do VSCode `.\.venv\Scripts\activate`
 9. Instale as dependências do projeto `py -m pip install -r .\requirements.txt`
-10. Lembre-se de desativar o ambiente virtual ao sair `.\.alfatech\Scripts\deactivate` ou configure seu ambiente para que isso ocorra automaticamente.
+10. Lembre-se de desativar o ambiente virtual ao sair `.\.venv\Scripts\deactivate` ou configure seu ambiente para que isso ocorra automaticamente.
 11. Caso tenha dúvidas sobre o funcionamento dos ambientes virtuais no VSCode, há instruções [aqui](https://medium.com/@dipan.saha/managing-git-repositories-with-vscode-setting-up-a-virtual-environment-62980b9e8106)
 
 # Como começar a trabalhar com o cache?
