@@ -1,4 +1,4 @@
-# alfatech-analysis
+# geic-data-analysis
 
 Este repositório contém uma estratégia de análise (proof-of-concept) baseada na leitura direta do banco de dados relacional do GEIC.
 
